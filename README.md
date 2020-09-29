@@ -10,4 +10,4 @@ Repositório com algumas ideias de como utilizar o useContext
 
 3. Para manter um código mais organizado, uma boa ideia é imaginar o contexto como um componente react, que vai receber componentes filhos e renderizá-los dentro do provider, evitando retrabalho durante o uso. 
 
-[useContext](https://pt-br.reactjs.org/docs/hooks-reference.html#usecontext)
+[Documentação oficial do useContext](https://pt-br.reactjs.org/docs/hooks-reference.html#usecontext)
