@@ -24,5 +24,6 @@ export const TesteContextConsumer = TesteContext.Consumer;
 
 //Aqui criamos um hook personalizado que quando importado em qualquer componente filho irá retornar os valores do nosso contexto, de modo que:
 //useContext()[0] - está guardando uma função que atualiza o estado
-//useContext()[1] - está guardando o valor do count; 
+//useContext()[1] - está guardando o valor do count 
+//Ao importa-lo, o ideal é criar uma constante para guardar o seu valor: const valorDoContexto = useTesteContext()[1], por exemplo
 export const useTesteContext = () => useContext(TesteContext);
